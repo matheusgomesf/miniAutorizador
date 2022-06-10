@@ -24,13 +24,13 @@ public class CartaoEntity implements Serializable {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(name = "numeroCartao")
+    @Column(name = "numero_cartao")
     private String numeroCartao;
 
     @Column(name = "senha")
     private String senha;
 
-    @Column(name = "saldoCartao")
+    @Column(name = "saldo_cartao")
     private BigDecimal saldoCartao;
 
     @PrePersist
